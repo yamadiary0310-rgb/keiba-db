@@ -1,0 +1,15 @@
+{
+  "horse_count": 40551,
+  "horse_master_count": 8895,
+  "horses_with_runs": 38521,
+  "race_rows": 326580,
+  "jockey_count": 119,
+  "shard_count": 68,
+  "sample_names": [
+    "ダノンデサイル",
+    "ヴァルキリーバース"
+  ],
+  "files": {
+    "horses_all_jsonl_kb": 245105
+  }
+}
