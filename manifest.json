@@ -1,0 +1,8 @@
+{
+  "source": "horses_all(1).jsonl",
+  "total_horses": 40551,
+  "shard_count": 495,
+  "target_max_file_size_kb": 500,
+  "format": "jsonl",
+  "upload_note": "GitHubブラウザアップロード用。50ファイルずつ程度でアップロード推奨。"
+}
