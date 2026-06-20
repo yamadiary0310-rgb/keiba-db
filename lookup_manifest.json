@@ -1,0 +1,12 @@
+{
+  "format": "split_horse_lookup_by_first_character",
+  "total_groups": 68,
+  "total_horses": 40551,
+  "usage": "馬名の先頭1文字を initial として /lookup/{initial}.json を取得する。例: ダノンデサイル → /lookup/ダ.json",
+  "example": {
+    "horse": "ダノンデサイル",
+    "initial": "ダ",
+    "path": "/lookup/ダ.json",
+    "shard": "shard_0237.jsonl"
+  }
+}
