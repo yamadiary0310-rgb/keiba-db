@@ -1,6 +1,6 @@
 {
   "format": "horse_prefix_json",
   "total_horses": 40551,
-  "total_files": 2394,
+  "total_files": 21938,
   "usage": "例: ダノンデサイル → horses/ダ/ダノ.json を取得し、その中の ダノンデサイル を読む"
 }

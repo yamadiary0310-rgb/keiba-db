@@ -6,7 +6,7 @@ from collections import defaultdict
 
 BASE = Path(__file__).parent
 SRC = BASE / "horses_all.jsonl"
-OUT = BASE / "horses"
+OUT = BASE / "horses4"
 
 if not SRC.exists():
     raise FileNotFoundError("horses_all.jsonl が見つかりません")
@@ -33,7 +33,7 @@ with SRC.open("r", encoding="utf-8") as f:
             continue
 
         first = safe_name(name[0])
-        prefix = safe_name(name[:2]) if len(name) >= 2 else first
+        prefix = safe_name(name[:4]) if len(name) >= 4 else name
 
         groups[(first, prefix)][name] = horse
         count += 1
